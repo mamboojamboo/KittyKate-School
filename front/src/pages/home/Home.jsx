@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Home = () => {
-  const user = null;
+  const userI = null;
   return (
     <div>
       Home

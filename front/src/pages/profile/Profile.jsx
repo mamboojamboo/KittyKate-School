@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Courses = () => {
+const Profile = () => {
   const userI = null;
   return (
     <div>
-      Courses
+      Profile
     </div>
   );
 };
 
-export default Courses;
+export default Profile;
