@@ -7,7 +7,7 @@ import Routes from './routes';
 import { CurrentUserProvider } from './contexts/currentUser';
 import CurrentUserChecker from './components/currentUserChecker/CurrentUserChecker';
 import './main.css';
-
+import Footer from './components/footer/Footer';
 
 
 const App = () => (
@@ -17,9 +17,9 @@ const App = () => (
         <Router>
           <TopBar/>
           <Routes/>
+          <Footer/>
         </Router>
       </CurrentUserChecker>
-      KittyKate-School
     </CurrentUserProvider>
   </div>
 );

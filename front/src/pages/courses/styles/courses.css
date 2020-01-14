@@ -1,0 +1,95 @@
+.catalog-slider {
+  background-image: url(../img/slider3.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 400px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.catalog-slider__catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.catalog-slider__catalog-h2 {
+  color: green;
+  font-size: 24px;
+  font-family: Montserrat-Bold;
+  font-weight: 600;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.catalog-slider__product {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 12.5px 0px 25px 0px;
+  width: 250px;
+}
+
+.catalog-slider__product-a {
+  text-decoration: none;
+}
+
+.catalog-slider__img-catalog {
+  width: 200px;
+}
+
+.catalog-slider__product-h3 {
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.catalog-slider__product-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.catalog-slider__img-product {
+  width: 350px;
+  border: 1px solid black;
+}
+
+.catalog-slider__img-product:hover {
+  border-color: white;
+}
+
+.catalog-slider__product-characteristic, .catalog-slider__contacts-list {
+  list-style-position: inside;
+}
+/*# sourceMappingURL=courses.css.map */

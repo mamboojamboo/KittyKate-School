@@ -31,10 +31,4 @@ body {
   margin: 0 auto;
   padding: 0px 30px;
 }
-
-.content {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
 /*# sourceMappingURL=main.css.map */
