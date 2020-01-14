@@ -1,0 +1,64 @@
+$authMainColor: #dedcdc
+  
+.auth
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  width: 100%
+  min-height: 60vh
+
+  &__form
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding: 4% 5%
+    color: #2d9057
+    border-radius: 10px
+    background-color: #fff
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+
+  &__page-title
+    font-size: 2rem
+    text-align: center
+    margin-bottom: 5%
+    color:#030000
+
+  &__link-to-signup
+    font-size: 0.8rem
+    margin-bottom: 3%
+    color:#2d9057
+
+  &__user-name-label, &__email-label, &__password-label
+    width: 100%
+    color: #030000
+    text-transform: uppercase
+    padding-left: 5%
+    margin-bottom: 1%
+
+  &__user-name-input, &__email-input, &__password-input
+    width: 100%
+    color: #030000
+    padding: 2% 5%
+    background: none
+    border: 1px solid $authMainColor
+    border-radius: 5px
+    margin-bottom: 5%
+    background-color: #ecebec
+    outline: none
+
+    &:focus
+      border: 1px solid #030000
+
+    &::placeholder
+      color: #a69f9e
+
+  &__button
+    width: 100%
+    color: $authMainColor
+    padding: 2% 0
+    border: none
+    background: #2d9057
+    border-radius: 5px
+    outline: none

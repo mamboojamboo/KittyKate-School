@@ -1,0 +1,110 @@
+.slider {
+  background-image: url(../img/slider.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 600px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.slider__text-wrapper {
+  background: rgba(255, 255, 255, 0.8);
+  margin: 150px 0px 0px 30px;
+  padding: 30px 15px 30px 15px;
+  width: 500px;
+}
+
+.slider__greeting-text {
+  color: green;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.slider__text {
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  padding-top: 15px;
+}
+
+.calendar-min {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.calendar-min__text-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.calendar-min__title {
+  color: green;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.calendar-min__text {
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  padding-top: 15px;
+}
+
+.calendar-min__blocks-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px 0px;
+}
+
+.calendar-min__block {
+  border: 1px solid black;
+  width: 30%;
+  height: 362px;
+}
+
+.calendar-min__block-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+}
+/*# sourceMappingURL=home.css.map */
