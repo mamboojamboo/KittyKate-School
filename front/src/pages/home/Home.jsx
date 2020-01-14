@@ -2,9 +2,7 @@ import React from 'react';
 
 import './styles/home.css';
 
-const Home = () => {
-  const userI = null;
-  return (
+const Home = () => (
 
     <div>
       <div class='slider'>
@@ -34,7 +32,6 @@ const Home = () => {
       </div> */}
 
     </div>
-  );
-};
+);
 
 export default Home;

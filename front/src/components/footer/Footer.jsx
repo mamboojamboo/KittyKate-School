@@ -2,9 +2,7 @@ import React from 'react';
 
 import './styles/footer.css';
 
-const Footer = () => {
-  const userI = null;
-  return (
+const Footer = () => (
     <footer className='footer'>
 
     <div className="footer__wrapper">
@@ -31,7 +29,6 @@ const Footer = () => {
 
     <p className="footer__copyright">&copy; &laquo;Все права защищены&raquo;. ООО &laquo;Школа иностранных языков Китти-Кейт&raquo;.</p>
     </footer>
-  );
-};
+);
 
 export default Footer;

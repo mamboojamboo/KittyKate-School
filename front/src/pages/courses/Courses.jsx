@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom';
 import './styles/courses.css';
 import productImage from './img/toefl.jpg';
 
-const Courses = () => {
-  const userI = null;
-  return (
+const Courses = () => (
     <div>
 
       <div class="catalog-slider">
@@ -75,7 +73,6 @@ const Courses = () => {
 
       </div>
     </div>
-  );
-};
+);
 
 export default Courses;

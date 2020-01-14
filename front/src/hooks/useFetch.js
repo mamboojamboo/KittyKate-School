@@ -31,12 +31,10 @@ export default (url) => {
 
     axios(baseUrl + url, requestOptions)
       .then((res) => {
-        console.log('success', res);
         setIsLoading(false);
         setResponse(res.data);
       })
       .catch((error) => {
-        console.log('error', error);
         setIsLoading(false);
         setError(error.response.data);
       });
